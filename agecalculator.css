@@ -1,0 +1,44 @@
+body{
+    border-color: lightsteelblue;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainContainer{
+    background-color: lightgreen;
+    padding: 70px;
+    border-radius: 13px;
+}
+.kk{
+    width: 70px;
+    font-size: 16px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: lightcyan;
+    border: none;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 11px;
+}
+#calculateResult{
+    text-align: center;
+    color: lightseagreen;
+    font-size: 19px;
+}
+.inputGp{
+    text-align: center;
+}
+.btn{
+    width: 250px;
+}
